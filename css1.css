@@ -1,0 +1,19 @@
+body{
+    background-image: url(white-abstract-background_23-2148810113.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+h1{
+    margin-top: 12%;
+}
+form{
+  margin: 20%; 
+  position: relative; 
+}
+input{
+    display: block;
+}
+.site{
+    margin-left: 20%;
+}

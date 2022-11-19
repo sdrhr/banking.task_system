@@ -1,0 +1,215 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+body{
+    background-image: url(MPMG-Conventional-Pop-Up.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    background-color: transparent;
+    padding: 5px;
+     text-align-last: center;
+     font-size:larger;
+}
+a{
+    color: black;
+    padding: 5px;
+    
+   
+}
+
+footer{
+    background-color: rgb(138, 106, 42);
+    
+   display: block;
+   padding: 50px;
+   
+}
+div.col-6{
+    display: inline;
+}
+div.rightcol-6{
+   margin-left: 9px;
+    column-count: 4;
+    margin-top: 5%;
+    column-gap: 5px;
+}
+img.im{
+    margin-left: 5%;
+    cursor: pointer;
+}
+.sidenav {
+  height: 50%; 
+  width: 140px;
+  position: absolute; 
+  z-index: 1;
+  top: 50%; 
+  left: 0;
+  
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+
+ 
+  color: #818181;
+  display: block;
+}
+label{
+    display: block;
+}
+input{
+    display: block;
+    width: 50%;
+    padding: 5px;
+    border-radius: 5px;
+}
+input.form-control{
+    display: inline;
+}
+input[type="search" i] {
+    appearance: auto;
+    box-sizing: border-box;
+    padding: 2px 2px;
+}
+input.ik{
+    display: inline;
+}
+
+form{
+    margin-left: 30%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-right: 20%;
+}
+textarea{
+    width: 50%;
+    padding: 5px;
+}
+button{
+    background-color: grey;
+    width: 40%;
+    border-radius: 5px;
+}
+button.btn{
+    width: 5%;
+
+
+}
+img.ig{
+    border-radius: 20px;
+     /* height: 40px; */
+   width: 20%; 
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+img.cc{
+    /* height: 50px; */
+    width: 25%;
+    /* transition: transform 0.5s; */
+    cursor: pointer;
+}
+table{
+    margin: 4%;
+}
+select{
+    padding: 5px;
+    width: 50%;
+}
+label{
+    margin-top: 1%;
+}
+* {box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
